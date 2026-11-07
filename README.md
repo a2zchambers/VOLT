@@ -328,10 +328,17 @@ Execute the following command from the root directory of the repository:streamli
 Upon execution, Streamlit will launch the web application local server (typically accessible at http://localhost:8501 in your browser).
 
 # 14. Screenshots & Visual Placeholders
-Dashboard Overview & SEC Audit Verification Bar![Dashboard Overview](https://via.placeholder.com/800x400.png?text=VOLT+Dashboard+Overview+%26+SEC+Audit+Bar)
-Geospatial 3D Supply Chain Map (Phase 5 Global Command Center)![3D Supply Chain Map](https://via.placeholder.com/800x400.png?text=PyDeck+3D+Supply+Chain+Map)
-Node-by-Node Margin Spread Calculator & Waterfall![Margin Waterfall](https://via.placeholder.com/800x400.png?text=Margin+Spread+Calculator+%26+Waterfall)
-Automated LIFO Liquidation Event Warning![LIFO Alert Banner](https://via.placeholder.com/800x400.png?text=LIFO+Liquidation+Warning+Banner)
+Because VOLT is a dynamic, interactive Streamlit terminal rather than a static website, visual outputs update in real time as user parameters change. When running the application locally (streamlit run app.py), users can navigate across the following primary interface panels:
+
+Master Overview Dashboard (🏠 Master Overview & Terminal Summary): Provides executive-level summaries of Valero's operational footprint and system architecture.
+
+SEC Audit Verification Expander: Available across Phases 1–5, this glass-box inspector displays verbatim 10-K snippets, CIK accession numbers, confidence scores, and code execution traces.
+
+Geospatial Global Command Center (Phase 5): Interactive PyDeck 3D map featuring arc flows from Permian, Western Canada, and Mexico Docks to Valero's 14 refineries and export terminals.
+
+Margin Spread & Waterfall Engine (Margin & Velocity Formula): Dynamic calculations displaying gateway landed costs, NCI complexity uplifts, OpEx, and compliance drags.
+
+LIFO Liquidation Monitor: Real-time alert banners that trigger if inventory volumes fall below historical audited base pools.
 
 # 15. Testing & Validation Status
 Syntax & Execution Validation: Tested locally using Python 3.10 and Streamlit 1.32 across standard web viewports.
