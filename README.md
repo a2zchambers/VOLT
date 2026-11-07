@@ -63,98 +63,76 @@ FEATURE / MODULE                  | STATUS               | DESCRIPTION
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 
-Phase 1: Feedstock Sourcing       | [IMPLEMENTED]        | Regional crude slate registry, landed cost 
+Phase 1:       | [IMPLEMENTED]    | Regional crude slate registry, landed cost 
+Feedstock                         | simulator (WCS/Maya discounts), DGD renewable
+Sourcing                          | feedstocks, and SEC Note 19 obligations.
 
-                                  |                      | simulator (WCS/Maya discounts), DGD renewable 
-
-                                  |                      | feedstocks, and SEC Note 19 obligations.
+                                  
 
 --------------------------------------------------------------------------------------------------------
 
-Phase 2: Refining Nodes           | [IMPLEMENTED]        | 14-refinery capacity footprint (3.2M BPCD), 
-
-                                  |                      | regional weighted NCI indexer, product yield 
-
-                                  |                      | transformation, and turnaround schedule engine.
+Phase 2:       | [IMPLEMENTED]    | 14-refinery capacity footprint (3.2M BPCD),
+Refining                          | regional weighted NCI indexer, product yield 
+Nodes                             | transformation, and turnaround schedule engine.
 
 --------------------------------------------------------------------------------------------------------
 
 Phase 3: Logistics & Channels     | [IMPLEMENTED]        | Logistics lease commitments registry, freight 
-
                                   |                      | rate shock simulator, export destination 
-
                                   |                      | mapping, and Note 21 segment revenue breakdown.
 
 --------------------------------------------------------------------------------------------------------
 
 Phase 4: Unified Terminal         | [IMPLEMENTED]        | Consolidated PyDeck supply map, throughput vs. 
-
                                   |                      | crack spread margin capture dashboard, and Plotly 
-
                                   |                      | Sankey volumetric flow diagram.
 
 --------------------------------------------------------------------------------------------------------
 
 Phase 5: Geospatial Command       | [IMPLEMENTED]        | Global/Regional PyDeck viewports, 3D elevation 
-
                                   |                      | flows, and hurricane outage stress-testing 
-
                                   |                      | scenario toggle.
 
 --------------------------------------------------------------------------------------------------------
 
 Cost & Velocity Architecture      | [IMPLEMENTED]        | 4-Stage operational hub featuring Valero audited 
-
                                   |                      | baseline presets vs. custom company parameter 
-
                                   |                      | override toggles.
 
 --------------------------------------------------------------------------------------------------------
 
 Margin Spread Engine              | [IMPLEMENTED]        | Interactive Node-by-Node margin waterfall 
-
                                   |                      | calculator isolating landed cost, NCI uplift, 
-
                                   |                      | OpEx, and compliance drags.
 
 --------------------------------------------------------------------------------------------------------
 
 Supply Chain Velocity             | [IMPLEMENTED]        | 5-stage cash-to-cash lead time calculator 
-
                                   |                      | (Inbound Transit, Buffer, Processing, DSI, DSO) 
-
                                   |                      | with capital drag calculations.
 
 --------------------------------------------------------------------------------------------------------
 
 LIFO Staging Matrix               | [IMPLEMENTED]        | Matrix detailing cost drivers, velocity bounds, 
-
                                   |                      | and LIFO accounting impacts across 4 lifecycle 
-
                                   |                      | stages with holding time controls.
 
 --------------------------------------------------------------------------------------------------------
 
 LIFO Liquidation Monitor          | [IMPLEMENTED]        | Automated risk engine detecting inventory volume 
-
                                   |                      | drawdowns below historical base pools and 
-
                                   |                      | calculating artificial tax/margin spikes.
 
 --------------------------------------------------------------------------------------------------------
 
 Live SEC EDGAR API Scraping       | [PARTIAL / SIMULATED]| SEC citations and verbatim snippets are 
-
                                   |                      | hardcoded from verified 2025 10-K filings; 
-
                                   |                      | live automated scraper pipeline staged.
 
 --------------------------------------------------------------------------------------------------------
 
 Multi-Company Benchmark Engine    | [PLANNED]            | Automated side-by-side benchmarking database 
-
                                   |                      | for Marathon Petroleum (MPC), Phillips 66 (PSX), 
-
                                   |                      | and PBF Energy.
 
 --------------------------------------------------------------------------------------------------------
