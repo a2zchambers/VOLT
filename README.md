@@ -60,7 +60,7 @@ Technology / LibraryDescriptionRuntime & UIPython 3.10+, Streamlit v1.30+Core ex
 --------------------------------------------------------------------------------------------------------
 
 FEATURE / MODULE                  | STATUS               | DESCRIPTION
-
+--------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 
 Phase 1: Feedstock Sourcing       | [IMPLEMENTED]        | Regional crude slate registry, landed cost 
@@ -259,14 +259,16 @@ Parameters & Specifications:
 
 # 9. Data Sourcing & Verification Methodology
 
+====================================================================================================
 PUBLIC SEC EDGAR DISCLOSURES & BASELINE ASSUMPTIONS (VALERO ENERGY CORP - CIK: 0001035002)
-
+====================================================================================================
 
 All baseline parameters, asset capacities, contract obligations, and financial segment data integrated within 
 the VOLT terminal are sourced directly from Valero Energy Corporation's 2025 Form 10-K SEC filings:
 
+----------------------------------------------------------------------------------------------------
 DISCLOSURE SECTION                            METRIC & OPERATIONAL PARAMETER
-
+----------------------------------------------------------------------------------------------------
 Item 1: Business - Refining Operations       • 14 Petroleum Refineries globally operated
                                               • Total Throughput Nameplate Capacity: 3.2M BPCD
                                               • Heavy sour and light sweet crude slate slates
@@ -284,6 +286,7 @@ Item 8, Note 21: Segment Disaggregation       • External product-line revenue 
                                                 - Refined Products: $132.4 Billion
                                                 - Renewable Diesel: $5.2 Billion
                                                 - Ethanol: $4.8 Billion
+----------------------------------------------------------------------------------------------------
 
 
 # 10. Key Financial & Operational Metrics
